@@ -1,0 +1,16 @@
+pip install -r requirements.txt
+pip show pydantic    ---> to display the pydantic version and my version is 2.12.5
+
+
+
+pytest --collect-only
+pytest tests/unit/test_backup_base.py -v
+pytest tests/unit/test_backup_engines.py -v
+pytest tests/factories/test_db_factory.py -v
+pytest tests/services/test_backup_service.py -v
+pytest tests/services/test_list_backup_service.py -v
+pytest tests/services/test_health_service.py -v
+pytest tests/api/test_health_api.py -v
+pytest tests/api/test_backup_api.py -v
+pytest --cov=app --cov-report=term-missing
+pytest tests/api/test_backup_api_negative.py -v

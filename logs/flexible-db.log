@@ -1,0 +1,177 @@
+2026-02-03 15:00:41,401 | INFO | flexible-db | Flexible Database service started
+2026-02-03 15:03:15,590 | INFO | Flexible Database | main | - | Flexible Database service started
+2026-02-03 15:07:04,209 | INFO | flexible-db | main | 145629 | Incoming request: GET /api/health/
+2026-02-03 15:26:06,398 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=mongo
+2026-02-03 15:26:23,053 | INFO | Flexible Database | main | 0d48a0 | Incoming request: GET /docs
+2026-02-03 15:26:23,302 | INFO | Flexible Database | main | c91307 | Incoming request: GET /openapi.json
+2026-02-03 15:26:30,526 | INFO | Flexible Database | main | ed2312 | Incoming request: GET /api/health/db
+2026-02-03 15:26:30,554 | INFO | Flexible Database | mongo_connection | ed2312 | MongoDB connection successful | DB_TYPE=mongo
+2026-02-03 15:26:30,555 | INFO | Flexible Database | aop | ed2312 | check_db_connection executed in 0.013s
+2026-02-03 17:29:51,168 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=mongo
+2026-02-03 17:30:14,744 | INFO | Flexible Database | main | ce0efe | Incoming request: GET /
+2026-02-03 17:30:21,071 | INFO | Flexible Database | main | 48dbaf | Incoming request: GET /docs
+2026-02-03 17:30:21,347 | INFO | Flexible Database | main | 37bef0 | Incoming request: GET /openapi.json
+2026-02-03 17:30:28,371 | INFO | Flexible Database | main | 9e2a56 | Incoming request: POST /api/backup/start
+2026-02-03 17:30:28,379 | INFO | Flexible Database | base_backup | 9e2a56 | Backup started | backup_id=4348b0fe
+2026-02-03 17:30:28,452 | INFO | Flexible Database | base_backup | 9e2a56 | Backup completed | backup_id=4348b0fe
+2026-02-03 17:30:28,453 | INFO | Flexible Database | aop | 9e2a56 | trigger_backup executed in 0.074s
+2026-02-03 17:39:23,603 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=mongo
+2026-02-03 17:39:39,860 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=mongo
+2026-02-03 17:39:53,737 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=mongo
+2026-02-03 17:40:04,605 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=mongo
+2026-02-03 17:40:28,039 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=mongo
+2026-02-03 17:40:30,573 | INFO | Flexible Database | main | e4bae3 | Incoming request: GET /
+2026-02-03 17:40:36,022 | INFO | Flexible Database | main | 46211a | Incoming request: GET /docs
+2026-02-03 17:40:36,278 | INFO | Flexible Database | main | 55a8e8 | Incoming request: GET /openapi.json
+2026-02-03 17:40:42,085 | INFO | Flexible Database | main | a60831 | Incoming request: POST /api/backup/start
+2026-02-03 17:40:42,096 | INFO | Flexible Database | base_backup | a60831 | Backup started | backup_id=01b1c981 | db_type=mongo | path=backups/mongo/Backup_2026-02-03_12-10-42
+2026-02-03 17:40:42,141 | INFO | Flexible Database | base_backup | a60831 | Backup completed | backup_id=01b1c981 | db_type=mongo
+2026-02-03 17:40:42,141 | INFO | Flexible Database | aop | a60831 | trigger_backup executed in 0.046s
+2026-02-03 17:41:18,260 | INFO | Flexible Database | main | dbf3cb | Incoming request: POST /api/backup/start
+2026-02-03 17:41:18,262 | INFO | Flexible Database | base_backup | dbf3cb | Backup started | backup_id=739b7b08 | db_type=mongo | path=backups/mongo/Backup_2026-02-03_12-11-18
+2026-02-03 17:41:18,303 | INFO | Flexible Database | base_backup | dbf3cb | Backup completed | backup_id=739b7b08 | db_type=mongo
+2026-02-03 17:41:18,304 | INFO | Flexible Database | aop | dbf3cb | trigger_backup executed in 0.042s
+2026-02-03 20:27:50,678 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=mongo
+2026-02-03 20:27:53,200 | INFO | Flexible Database | main | a510b7 | Incoming request: GET /
+2026-02-03 20:28:03,431 | INFO | Flexible Database | main | 0b1a64 | Incoming request: GET /docs
+2026-02-03 20:28:03,831 | INFO | Flexible Database | main | 85452d | Incoming request: GET /openapi.json
+2026-02-03 20:28:25,021 | INFO | Flexible Database | main | 0efcf3 | Incoming request: POST /api/backup/start
+2026-02-03 20:28:25,043 | INFO | Flexible Database | base_backup | 0efcf3 | Backup started | backup_id=d4f3ba23 | db_type=mongo | path=backups/mongo/Backup_2026-02-03_14-58-25
+2026-02-03 20:28:25,126 | INFO | Flexible Database | base_backup | 0efcf3 | Backup completed | backup_id=d4f3ba23 | db_type=mongo
+2026-02-03 20:28:25,127 | INFO | Flexible Database | aop | 0efcf3 | trigger_backup executed in 0.084s
+2026-02-03 20:32:54,366 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=mongo
+2026-02-03 20:33:00,285 | INFO | Flexible Database | main | d3205a | Incoming request: GET /api/health/
+2026-02-03 20:33:15,267 | INFO | Flexible Database | main | 85e059 | Incoming request: GET /api/health/db
+2026-02-03 20:33:15,294 | INFO | Flexible Database | mongo_connection | 85e059 | MongoDB connection successful | DB_TYPE=mongo
+2026-02-03 20:33:15,295 | INFO | Flexible Database | aop | 85e059 | check_db_connection executed in 0.024s
+2026-02-03 20:35:37,545 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=postgres
+2026-02-03 20:35:44,956 | INFO | Flexible Database | main | 3627af | Incoming request: GET /api/health/db
+2026-02-03 20:35:45,012 | INFO | Flexible Database | postgres_connection | 3627af | PostgreSQL connection successful | DB_TYPE=postgres
+2026-02-03 20:35:45,013 | INFO | Flexible Database | aop | 3627af | check_db_connection executed in 0.04s
+2026-02-03 20:35:48,666 | INFO | Flexible Database | main | d5fe1e | Incoming request: GET /api/health/
+2026-02-03 20:35:54,318 | INFO | Flexible Database | main | 4595c6 | Incoming request: POST /api/backup/start
+2026-02-03 20:35:54,322 | INFO | Flexible Database | base_backup | 4595c6 | Backup started | backup_id=9a1378e9 | db_type=postgres | path=backups/postgres/Backup_2026-02-03_15-05-54
+2026-02-03 20:36:30,557 | INFO | Flexible Database | base_backup | 4595c6 | Backup completed | backup_id=9a1378e9 | db_type=postgres
+2026-02-03 20:36:30,558 | INFO | Flexible Database | aop | 4595c6 | trigger_backup executed in 36.237s
+2026-02-03 20:36:48,805 | INFO | Flexible Database | main | 6202bd | Incoming request: POST /api/backup/start
+2026-02-03 20:36:48,807 | INFO | Flexible Database | base_backup | 6202bd | Backup started | backup_id=8b0d5963 | db_type=postgres | path=backups/postgres/Backup_2026-02-03_15-06-48
+2026-02-03 20:36:53,674 | ERROR | Flexible Database | main | 6202bd | BACKUP_ERROR | PostgreSQL backup failed: Command '['pg_dump', '-h', 'localhost', '-U', 'postgres', '-d', 'SaiDB', '-f', 'backups/postgres/Backup_2026-02-03_15-06-48/backup.sql']' returned non-zero exit status 1.
+2026-02-03 20:51:22,926 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=postgres
+2026-02-03 20:51:27,356 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=postgres
+2026-02-03 20:51:34,720 | INFO | Flexible Database | main | c603f2 | Incoming request: POST /api/backup/start
+2026-02-03 20:51:34,742 | INFO | Flexible Database | base_backup | c603f2 | Backup started | backup_id=9f0ca79a | db_type=postgres | path=backups/postgres/Backup_2026-02-03_15-21-34
+2026-02-03 20:51:34,969 | INFO | Flexible Database | base_backup | c603f2 | Backup completed | backup_id=9f0ca79a | db_type=postgres
+2026-02-03 20:51:34,970 | INFO | Flexible Database | aop | c603f2 | trigger_backup executed in 0.228s
+2026-02-03 20:52:26,241 | INFO | Flexible Database | main | 4ba73b | Incoming request: POST /api/backup/start
+2026-02-03 20:52:26,244 | INFO | Flexible Database | base_backup | 4ba73b | Backup started | backup_id=a28172d2 | db_type=postgres | path=backups/postgres/Backup_2026-02-03_15-22-26
+2026-02-03 20:52:26,479 | INFO | Flexible Database | base_backup | 4ba73b | Backup completed | backup_id=a28172d2 | db_type=postgres
+2026-02-03 20:52:26,479 | INFO | Flexible Database | aop | 4ba73b | trigger_backup executed in 0.236s
+2026-02-04 20:09:57,661 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=postgres
+2026-02-04 20:09:59,792 | INFO | Flexible Database | main | ea91ea | Incoming request: GET /
+2026-02-04 20:09:59,879 | INFO | Flexible Database | main | 24c9e8 | Incoming request: GET /favicon.ico
+2026-02-04 20:10:08,895 | INFO | Flexible Database | main | d6f06e | Incoming request: GET /docs
+2026-02-04 20:10:09,167 | INFO | Flexible Database | main | ebbdc7 | Incoming request: GET /openapi.json
+2026-02-04 20:10:18,158 | INFO | Flexible Database | main | 8aec69 | Incoming request: GET /api/health/
+2026-02-04 20:10:29,702 | INFO | Flexible Database | main | ba606e | Incoming request: GET /api/health/db
+2026-02-04 20:10:29,717 | INFO | Flexible Database | mongo_connection | ba606e | MongoDB connection successful | DB_TYPE=mongo
+2026-02-04 20:10:29,718 | INFO | Flexible Database | health_service | ba606e | Health check passed | db_type=mongo
+2026-02-04 20:10:29,741 | INFO | Flexible Database | postgres_connection | ba606e | PostgreSQL connection successful | DB_TYPE=postgres
+2026-02-04 20:10:29,741 | INFO | Flexible Database | health_service | ba606e | Health check passed | db_type=postgres
+2026-02-04 20:10:54,644 | INFO | Flexible Database | main | 8385df | Incoming request: POST /api/backup/start
+2026-02-04 20:10:54,648 | INFO | Flexible Database | base_backup | 8385df | Backup started | backup_id=22f792cd | db_type=mongo | path=backups/mongo/Backup_2026-02-04_14-40-54
+2026-02-04 20:10:54,694 | INFO | Flexible Database | base_backup | 8385df | Backup completed | backup_id=22f792cd | db_type=mongo
+2026-02-04 20:10:54,694 | INFO | Flexible Database | aop | 8385df | trigger_backup executed in 0.046s
+2026-02-04 20:11:11,069 | INFO | Flexible Database | main | 981a67 | Incoming request: POST /api/backup/start
+2026-02-04 20:11:11,072 | INFO | Flexible Database | base_backup | 981a67 | Backup started | backup_id=f8ce2db0 | db_type=postgres | path=backups/postgres/Backup_2026-02-04_14-41-11
+2026-02-04 20:11:11,235 | INFO | Flexible Database | base_backup | 981a67 | Backup completed | backup_id=f8ce2db0 | db_type=postgres
+2026-02-04 20:11:11,236 | INFO | Flexible Database | aop | 981a67 | trigger_backup executed in 0.164s
+2026-02-04 20:11:21,094 | INFO | Flexible Database | main | 60e2d4 | Incoming request: POST /api/backup/start
+2026-02-04 20:21:53,939 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=postgres
+2026-02-04 20:22:38,869 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=postgres
+2026-02-04 20:24:32,423 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=postgres
+2026-02-04 20:24:55,774 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=postgres
+2026-02-04 20:25:35,654 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=postgres
+2026-02-04 20:26:40,841 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=postgres
+2026-02-04 20:27:18,724 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=postgres
+2026-02-04 20:27:28,151 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=postgres
+2026-02-04 20:27:39,941 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=postgres
+2026-02-04 20:27:44,634 | INFO | Flexible Database | main | 73e8f1 | Incoming request: GET /docs
+2026-02-04 20:27:44,885 | INFO | Flexible Database | main | c0f6e4 | Incoming request: GET /openapi.json
+2026-02-04 20:27:51,015 | INFO | Flexible Database | main | 27a4c5 | Incoming request: GET /api/health/
+2026-02-04 20:27:58,021 | INFO | Flexible Database | main | b9ddb4 | Incoming request: GET /api/health/db
+2026-02-04 20:27:58,034 | INFO | Flexible Database | mongo_connection | b9ddb4 | MongoDB connection successful | DB_TYPE=mongo
+2026-02-04 20:27:58,035 | INFO | Flexible Database | health_service | b9ddb4 | Health check passed | db_type=mongo
+2026-02-04 20:27:58,060 | INFO | Flexible Database | postgres_connection | b9ddb4 | PostgreSQL connection successful | DB_TYPE=postgres
+2026-02-04 20:27:58,060 | INFO | Flexible Database | health_service | b9ddb4 | Health check passed | db_type=postgres
+2026-02-04 20:28:09,800 | INFO | Flexible Database | main | f10711 | Incoming request: GET /api/backup/list
+2026-02-04 20:30:24,124 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=postgres
+2026-02-04 20:30:48,942 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=postgres
+2026-02-04 20:31:17,485 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=postgres
+2026-02-04 20:31:25,562 | INFO | Flexible Database | main | - | Service started | ENV=dev | DB_TYPE=postgres
+2026-02-04 20:31:31,698 | INFO | Flexible Database | main | 8dad15 | Incoming request: GET /docs
+2026-02-04 20:31:31,950 | INFO | Flexible Database | main | f63f89 | Incoming request: GET /openapi.json
+2026-02-04 20:31:40,105 | INFO | Flexible Database | main | 7e6f04 | Incoming request: GET /api/backup/list
+2026-02-04 20:32:19,864 | INFO | Flexible Database | main | 3a87c9 | Incoming request: GET /api/backup/list
+2026-02-04 21:01:52,354 | INFO | Flexible Database | base_backup | - | Backup started | backup_id=01d74cb0 | db_type=dummy | path=backups/dummy/Backup_2026-02-04_15-31-52
+2026-02-04 21:01:52,355 | INFO | Flexible Database | base_backup | - | Backup completed | backup_id=01d74cb0 | db_type=dummy
+2026-02-04 21:01:52,358 | INFO | Flexible Database | base_backup | - | Backup started | backup_id=43d452a7 | db_type=dummy | path=backups/dummy/Backup_2026-02-04_15-31-52
+2026-02-04 21:01:52,358 | INFO | Flexible Database | base_backup | - | Backup completed | backup_id=43d452a7 | db_type=dummy
+2026-02-04 21:01:52,362 | INFO | Flexible Database | base_backup | - | Backup started | backup_id=043a1fc8 | db_type=dummy | path=backups/dummy/Backup_2026-02-04_15-31-52
+2026-02-04 21:01:52,362 | INFO | Flexible Database | base_backup | - | Backup completed | backup_id=043a1fc8 | db_type=dummy
+2026-02-04 21:01:52,366 | INFO | Flexible Database | base_backup | - | Backup started | backup_id=2f158263 | db_type=dummy | path=backups/dummy/Backup_2026-02-04_15-31-52
+2026-02-04 21:01:52,367 | INFO | Flexible Database | base_backup | - | Backup completed | backup_id=2f158263 | db_type=dummy
+2026-02-04 21:07:14,848 | INFO | Flexible Database | aop | - | trigger_backup executed in 0.0s
+2026-02-04 21:16:51,664 | INFO | Flexible Database | health_service | - | Health check passed | db_type=mongo
+2026-02-04 21:16:51,665 | INFO | Flexible Database | health_service | - | Health check passed | db_type=postgres
+2026-02-04 21:16:51,671 | ERROR | Flexible Database | health_service | - | Health check failed | db_type=mongo | reason=mongo down
+2026-02-04 21:16:51,672 | INFO | Flexible Database | health_service | - | Health check passed | db_type=postgres
+2026-02-04 21:16:51,679 | ERROR | Flexible Database | health_service | - | Health check failed | db_type=mongo | reason=mongo down
+2026-02-04 21:16:51,679 | ERROR | Flexible Database | health_service | - | Health check failed | db_type=postgres | reason=postgres down
+2026-02-04 21:18:38,002 | INFO | Flexible Database | main | 4d0bb8 | Incoming request: GET /api/health/db
+2026-02-04 21:18:38,042 | INFO | Flexible Database | main | 8e6fbe | Incoming request: GET /api/health/db
+2026-02-04 21:18:38,069 | INFO | Flexible Database | main | 4badaa | Incoming request: GET /api/health/db
+2026-02-04 21:20:33,809 | INFO | Flexible Database | main | 5480bd | Incoming request: POST /api/backup/start
+2026-02-04 21:20:33,847 | INFO | Flexible Database | main | 1f2b35 | Incoming request: POST /api/backup/start
+2026-02-04 21:20:34,861 | INFO | Flexible Database | main | 8a504b | Incoming request: GET /api/backup/list
+2026-02-04 21:20:34,882 | INFO | Flexible Database | main | 8b48cb | Incoming request: GET /api/backup/list
+2026-02-04 21:23:19,101 | INFO | Flexible Database | main | ac4879 | Incoming request: POST /api/backup/start
+2026-02-04 21:23:19,135 | INFO | Flexible Database | main | f418a5 | Incoming request: POST /api/backup/start
+2026-02-04 21:23:19,137 | ERROR | Flexible Database | main | f418a5 | BACKUP_ERROR | backup failed
+2026-02-04 21:23:19,250 | INFO | Flexible Database | main | 2b6463 | Incoming request: GET /api/backup/list
+2026-02-04 21:23:19,271 | INFO | Flexible Database | main | 6b0555 | Incoming request: GET /api/backup/list
+2026-02-04 21:26:58,603 | INFO | Flexible Database | main | - | Incoming request: POST /api/backup/start
+2026-02-04 21:26:58,644 | INFO | Flexible Database | main | - | Incoming request: POST /api/backup/start
+2026-02-04 21:26:58,648 | ERROR | Flexible Database | main | - | BACKUP_ERROR | backup failed
+2026-02-04 21:26:58,669 | INFO | Flexible Database | main | - | Incoming request: GET /api/backup/list
+2026-02-04 21:26:58,689 | INFO | Flexible Database | main | - | Incoming request: GET /api/backup/list
+2026-02-05 12:49:40,257 | INFO | Flexible Database | main | - | Incoming request: POST /api/backup/start
+2026-02-05 12:49:40,296 | INFO | Flexible Database | main | - | Incoming request: POST /api/backup/start
+2026-02-05 12:49:40,299 | ERROR | Flexible Database | main | - | BACKUP_ERROR | backup failed
+2026-02-05 12:49:40,316 | INFO | Flexible Database | main | - | Incoming request: GET /api/backup/list
+2026-02-05 12:49:40,339 | INFO | Flexible Database | main | - | Incoming request: GET /api/backup/list
+2026-02-05 12:49:40,360 | INFO | Flexible Database | main | - | Incoming request: GET /api/health/db
+2026-02-05 12:49:40,379 | INFO | Flexible Database | main | - | Incoming request: GET /api/health/db
+2026-02-05 12:49:40,399 | INFO | Flexible Database | main | - | Incoming request: GET /api/health/db
+2026-02-05 12:49:40,443 | INFO | Flexible Database | aop | - | trigger_backup executed in 0.0s
+2026-02-05 12:49:40,459 | INFO | Flexible Database | health_service | - | Health check passed | db_type=mongo
+2026-02-05 12:49:40,460 | INFO | Flexible Database | health_service | - | Health check passed | db_type=postgres
+2026-02-05 12:49:40,468 | ERROR | Flexible Database | health_service | - | Health check failed | db_type=mongo | reason=mongo down
+2026-02-05 12:49:40,468 | INFO | Flexible Database | health_service | - | Health check passed | db_type=postgres
+2026-02-05 12:49:40,477 | ERROR | Flexible Database | health_service | - | Health check failed | db_type=mongo | reason=mongo down
+2026-02-05 12:49:40,477 | ERROR | Flexible Database | health_service | - | Health check failed | db_type=postgres | reason=postgres down
+2026-02-05 12:49:40,520 | INFO | Flexible Database | base_backup | - | Backup started | backup_id=95bff293 | db_type=dummy | path=backups/dummy/Backup_2026-02-05_07-19-40
+2026-02-05 12:49:40,521 | INFO | Flexible Database | base_backup | - | Backup completed | backup_id=95bff293 | db_type=dummy
+2026-02-05 12:49:40,528 | INFO | Flexible Database | base_backup | - | Backup started | backup_id=a979c4ea | db_type=dummy | path=backups/dummy/Backup_2026-02-05_07-19-40
+2026-02-05 12:49:40,528 | INFO | Flexible Database | base_backup | - | Backup completed | backup_id=a979c4ea | db_type=dummy
+2026-02-05 12:49:40,536 | INFO | Flexible Database | base_backup | - | Backup started | backup_id=a5d3f532 | db_type=dummy | path=backups/dummy/Backup_2026-02-05_07-19-40
+2026-02-05 12:49:40,537 | INFO | Flexible Database | base_backup | - | Backup completed | backup_id=a5d3f532 | db_type=dummy
+2026-02-05 12:49:40,546 | INFO | Flexible Database | base_backup | - | Backup started | backup_id=c2068a40 | db_type=dummy | path=backups/dummy/Backup_2026-02-05_07-19-40
+2026-02-05 12:49:40,546 | INFO | Flexible Database | base_backup | - | Backup completed | backup_id=c2068a40 | db_type=dummy
+2026-02-05 12:52:14,083 | INFO | Flexible Database | main | - | Incoming request: POST /api/backup/start
+2026-02-05 12:52:14,105 | INFO | Flexible Database | main | - | Incoming request: POST /api/backup/start
+2026-02-05 12:52:14,200 | INFO | Flexible Database | main | - | Incoming request: GET /api/backup/list
+2026-02-05 12:52:14,209 | INFO | Flexible Database | main | - | Incoming request: GET /api/backup/list
+2026-02-05 12:54:10,125 | INFO | Flexible Database | main | - | Incoming request: POST /api/backup/start
+2026-02-05 12:54:10,150 | INFO | Flexible Database | main | - | Incoming request: POST /api/backup/start
+2026-02-05 12:54:10,160 | INFO | Flexible Database | main | - | Incoming request: GET /api/backup/list
+2026-02-05 12:54:10,175 | INFO | Flexible Database | main | - | Incoming request: GET /api/backup/list

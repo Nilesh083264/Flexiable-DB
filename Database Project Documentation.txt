@@ -1,0 +1,196 @@
+Project Name :- Flexible Database
+
+Idea :- Flexible Database is an extensible database utility service that works as an API-based extension layer for SQL and NoSQL databases.
+        It provides backup, restore, and database utility operations via APIs and integrates with n8n for automated workflows.
+
+
+Security :-
+        V1) In V1 there is not any security layer..
+
+Features :-
+        1) this program is  able to autobackup the database
+        2) restore the Backup as per user request..
+        3) it provide the connection DB and other programs by API ..
+
+
+Coding Rules :-
+        1) the entire project is in OOPs
+        2) The code structure follows SOLID Principles
+        3) Maintains Proper logs
+        4) Maintains universal Exception Handle file with proper status code..
+        5) have Specific layered Architectures
+        6) Not any Hardcoding
+        7) easy to maintain..
+        8) use design patterns (singleton design pattern)
+
+Other Important files :-
+        1) docker  -- which contains docker setup
+        2) user manual -- it contains How to hit the apis with cURL
+        3) demo file which contains how to use AIs
+        4) Readme file -- to show the info in github..
+        5) Requirements file -- just required tools and framework
+        6) how to setup file -- how to setup this program
+        7) Used Cmds file -- all cmds which is used with explanation
+        8) Git commit history -- contains everything like status =[problem,New commit , Solutions, etc], date, commit
+        9) env file -- which contains dummy env structure
+        10) APIs info -- it contains Details of apis
+
+early stage (V1):
+        V1) here we are using only MongoDB .. 02//02/2026
+
+
+
+
+# DAY 1
+        1) Finalize architecture diagram  -- done   API → Service → Domain → Infrastructure
+        2) Finalize layer responsibilities  --  done
+            Layer       -->     Responsibility
+            API	        -->     HTTP only, controllers, routing
+            Service	    -->     Orchestration, business flow
+            Domain	    -->     Interfaces & contracts
+            Infrastructure	--> DB engines, backup/restore
+            Core	    -->     Config, logger, exceptions
+        3) Define V1 API endpoints      -- now only health only
+        4) Define MongoDB backup strategy   -- done
+        5) Freeze folder structure  --- done
+
+    So now we close the day 1 task list
+    “On Day 1, we finalized and froze the complete system architecture and design. No coding was done.”
+    DAY 1:
+        - Selected layered architecture
+        - Designed Archi v2 (multi-engine DB)
+        - Defined layer responsibilities
+        - Finalized folder and package structure
+        - Froze architecture for implementation
+
+
+
+#DAY 2
+    1) main.py fully working
+    2) Central API routing (routes.py)
+    3) Health controller live
+    4) DB Factory skeleton (engine resolver)
+    5) DB connection-check API (Mongo + Postgres)
+    6) Proper logging + config usage
+
+    Implement a production-grade foundation on top of frozen Archi v2
+    All Are uptodate and all thing is completed as per plan
+    we have done the task of creating main.py, Central API router of health connection then implemented the DB factory
+    with proper and neat loggings and configration.
+
+    so we can close the day 2 with full controll of coding ..
+
+#DAY 3
+    1)  Define Backup Domain Contract
+            Create DB-agnostic backup interface
+    2)  Implement Backup Engines
+            MongoDB backup engine
+            PostgreSQL backup engine
+    3)  Apply Design Patterns
+            Template Method for backup workflow
+            Strategy for DB-specific execution
+    4)  Introduce Backup Metadata Model
+            Backup ID
+            DB type
+            Timestamp
+            Status
+            Storage location
+    5)  Implement Backup Service
+            Orchestrates backup workflow
+            Uses factory + interfaces
+            Applies AOP logging
+    6)  Expose Backup APIs
+            Trigger backup
+            List backups (basic)
+    7)  Exception Handling
+            Add backup-specific exceptions
+            Proper error propagation & logging
+    8)  Logging
+            Log backup lifecycle
+            Include DB type + backup ID
+
+    ✅ What I worked on
+        --  Implemented a production-grade backup system with support for MongoDB and PostgreSQL
+        --  Refactored the system so db_type is selected per client request, not via environment configuration
+        --  Applied Template Method + Strategy patterns for DB-agnostic backup execution
+        --  Implemented a standardized, timestamp-based backup directory structure
+        --  Added aggregated health checks to validate availability of all supported databases
+        --  Integrated secure, non-interactive PostgreSQL authentication using environment-based credentials
+        --  Ensured full alignment with OOP, SOLID, AOP, and existing architecture
+
+    🎯 What I completed
+        --  Client-driven DB selection for all APIs
+        --  MongoDB and PostgreSQL backup engines
+        --  Backup metadata generation
+        --  Backup trigger API
+        --  Health API reporting status of all DBs
+        --  Logging and exception handling for backup lifecycle
+
+    here we got mismatch issue of ✅ Root cause: Pydantic model mismatch
+    and my version is 2.12.5 and the command is "pip show pydantic"
+
+
+DAY 4
+    ✅ DAY 4 GOALS
+        1)  Set Up Testing Framework
+                -Configure pytest
+                -Configure FastAPI TestClient
+                -Isolate test environment
+        2)  Unit Tests
+                -Backup engines (Mongo / Postgres)
+                -Backup folder creation logic
+                -Factory resolution logic
+                -Exception cases
+        3)  Service Layer Tests
+                -Backup service orchestration
+                -List backup service
+                -Health service (multi-DB)
+        4)  API Tests
+                -Health APIs
+                -Backup trigger API
+                -List backups API
+                -Error responses
+        5)  Mocking & Isolation
+                -Mock subprocess.run
+                -Mock DB connections
+                -Avoid real DB / filesystem dependencies
+        6)  Test Coverage Validation
+                -Ensure core logic paths are covered
+                -Validate error propagation
+
+        ✅ What I did
+            --Completed a full testing setup using pytest and FastAPI TestClient
+            --Added unit, service, and API tests covering backup, listing, and health flows
+            --Implemented negative API tests for invalid and missing inputs
+            --Fixed and validated API error contracts with structured error responses
+            --Ensured complete test isolation (no real DB, OS, or filesystem access)
+        🎯 Outcome
+            --Test suite is stable, deterministic, and CI-ready
+            --API behavior and validation rules are production-correct
+    DAY 4 goals fully achieved and verified
+
+    🚧 Blockers --> None
+
+# 🎯 Goals for DAY 5
+
+# 1️⃣ Platform & Runtime Hardening
+# - Refactor FastAPI startup to use lifespan events
+# - Remove deprecation warnings
+# - Ensure clean application bootstrap
+
+# 2️⃣ Dockerization
+# - Create production-ready Dockerfile
+# - Add .dockerignore
+# - Support environment-based configuration
+# - Enable containerized local execution
+
+# 3️⃣ Restore Feature (Core Flow)
+# - Implement restore engines (Mongo / Postgres)
+# - Add restore service orchestration
+# - Expose restore API endpoint
+# - Apply same error handling & logging standards
+
+# 4️⃣ (Optional) CI Readiness
+# - Define a basic CI test command
+# - Ensure pytest + coverage runs in container
+
